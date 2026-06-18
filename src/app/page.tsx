@@ -149,9 +149,9 @@ export default function Home() {
 
           <AnimatedSection delay={0.2}>
             <h1 className="font-heading font-black uppercase leading-[0.9] tracking-tight">
-              <span className="block text-[clamp(3rem,8vw,7rem)] text-brand-white">DISEÑAMOS.</span>
-              <span className="block text-[clamp(3rem,8vw,7rem)] text-brand-green">CONSTRUIMOS.</span>
-              <span className="block text-[clamp(3rem,8vw,7rem)] text-brand-white">TRANSFORMAMOS.</span>
+              <span className="block text-[1.75rem] sm:text-5xl lg:text-[clamp(3rem,8vw,7rem)] text-brand-white">DISEÑAMOS.</span>
+              <span className="block text-[1.75rem] sm:text-5xl lg:text-[clamp(3rem,8vw,7rem)] text-brand-green">CONSTRUIMOS.</span>
+              <span className="block text-[1.75rem] sm:text-5xl lg:text-[clamp(3rem,8vw,7rem)] text-brand-white">TRANSFORMAMOS.</span>
             </h1>
           </AnimatedSection>
 

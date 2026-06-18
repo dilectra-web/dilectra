@@ -35,7 +35,7 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <nav className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-40">
+      <nav className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-20 lg:h-40">
         {/* Logo */}
         <Link href="/" className="shrink-0">
           <Image
@@ -43,7 +43,7 @@ export default function Navbar() {
             alt="Dilectra Arquitectura & Ingeniería"
             width={680}
             height={190}
-            className="h-36 w-auto object-contain"
+            className="h-14 lg:h-36 w-auto object-contain"
             priority
           />
         </Link>

@@ -92,7 +92,7 @@ export default function Servicios() {
   return (
     <>
       {/* Header */}
-      <section className="relative bg-brand-black pt-40 pb-24 px-6 lg:px-8 overflow-hidden">
+      <section className="relative bg-brand-black pt-28 lg:pt-40 pb-16 lg:pb-24 px-6 lg:px-8 overflow-hidden">
         <div className="absolute inset-0 opacity-[0.04]">
           <svg width="100%" height="100%">
             <defs>
