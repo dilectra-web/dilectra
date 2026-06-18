@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function WhatsAppButton() {
   return (
     <motion.a
-      href="https://wa.me/50686635179"
+      href="https://wa.me/50683724840"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Contáctenos por WhatsApp"

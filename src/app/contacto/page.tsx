@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 const info = [
   {
     label: "Teléfono",
-    value: "+506 8663 5179",
-    href: "tel:+50686635179",
+    value: "+506 8372 4840",
+    href: "tel:+50683724840",
   },
   {
     label: "Ubicación",

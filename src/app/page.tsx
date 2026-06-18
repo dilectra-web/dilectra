@@ -337,10 +337,10 @@ export default function Home() {
                 Iniciar Proyecto
               </Link>
               <a
-                href="tel:+50686635179"
+                href="tel:+50683724840"
                 className="inline-block px-10 py-4 border border-white/20 text-brand-gray font-heading font-semibold text-sm tracking-widest uppercase hover:border-brand-green hover:text-brand-green transition-colors duration-200"
               >
-                +506 8663 5179
+                +506 8372 4840
               </a>
             </div>
           </AnimatedSection>

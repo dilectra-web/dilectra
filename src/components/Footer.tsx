@@ -57,10 +57,10 @@ export default function Footer() {
             </div>
             <div className="flex gap-3">
               <a
-                href="tel:+50686635179"
+                href="tel:+50683724840"
                 className="text-brand-gray text-sm hover:text-brand-green transition-colors font-body"
               >
-                +506 8663 5179
+                +506 8372 4840
               </a>
               <span className="text-brand-gray/30">|</span>
               <span className="text-brand-gray text-sm font-body">
