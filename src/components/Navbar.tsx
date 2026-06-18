@@ -43,7 +43,7 @@ export default function Navbar() {
             alt="Dilectra Arquitectura & Ingeniería"
             width={680}
             height={190}
-            className="h-14 lg:h-36 w-auto object-contain"
+            className="h-20 lg:h-36 w-auto object-contain"
             priority
           />
         </Link>
