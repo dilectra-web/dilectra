@@ -12,7 +12,7 @@ export async function POST(request: Request) {
   }
 
   const { error } = await resend.emails.send({
-    from: "Dilectra Web <onboarding@resend.dev>",
+    from: "Dilectra Web <contacto@dilectra.com>",
     to: "dilectraa@gmail.com",
     replyTo: correo,
     subject: `Nuevo mensaje de contacto — ${nombre}`,
