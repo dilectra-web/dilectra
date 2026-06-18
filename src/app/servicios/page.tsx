@@ -83,11 +83,11 @@ export default function Servicios() {
     <>
       {/* Header */}
       <section className="relative bg-brand-black pt-28 lg:pt-40 pb-16 lg:pb-24 px-6 lg:px-8 overflow-hidden">
-        <div className="absolute inset-0 opacity-[0.04]">
+        <div className="absolute inset-0 opacity-[0.10]">
           <svg width="100%" height="100%">
             <defs>
               <pattern id="g" width="80" height="80" patternUnits="userSpaceOnUse">
-                <path d="M 80 0 L 0 0 0 80" fill="none" stroke="white" strokeWidth="0.4" />
+                <path d="M 80 0 L 0 0 0 80" fill="none" stroke="white" strokeWidth="0.7" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#g)" />

@@ -89,17 +89,17 @@ export default function Proyectos() {
     <>
       {/* Header */}
       <section className="relative bg-brand-black pt-28 lg:pt-40 pb-16 lg:pb-24 px-6 lg:px-8 overflow-hidden">
-        <div className="absolute inset-0 opacity-[0.05]">
+        <div className="absolute inset-0 opacity-[0.12]">
           <svg width="100%" height="100%">
             <defs>
               <pattern id="topo-proy" width="500" height="500" patternUnits="userSpaceOnUse">
                 <path
                   d="M250,250 C320,190 400,160 460,170 C520,180 550,220 530,270 C510,320 450,350 380,350 C310,350 250,320 220,280 C190,240 210,190 250,170 C290,150 350,160 380,190 C410,220 410,260 380,285 C350,310 310,310 285,290"
-                  fill="none" stroke="#53996f" strokeWidth="0.5"
+                  fill="none" stroke="#53996f" strokeWidth="0.9"
                 />
                 <path
                   d="M50,100 C110,50 200,40 260,70 C320,100 340,160 310,210 C280,260 210,280 150,260 C90,240 60,190 70,140"
-                  fill="none" stroke="#53996f" strokeWidth="0.5"
+                  fill="none" stroke="#53996f" strokeWidth="0.9"
                 />
               </pattern>
             </defs>

@@ -29,13 +29,13 @@ export default function Contacto() {
     <>
       {/* Header */}
       <section className="relative bg-brand-black pt-28 lg:pt-40 pb-16 lg:pb-24 px-6 lg:px-8 overflow-hidden">
-        <div className="absolute inset-0 opacity-[0.04]">
+        <div className="absolute inset-0 opacity-[0.10]">
           <svg width="100%" height="100%">
             <defs>
               <pattern id="topo-c" width="300" height="300" patternUnits="userSpaceOnUse">
-                <ellipse cx="150" cy="150" rx="130" ry="90" fill="none" stroke="#53996f" strokeWidth="0.5" transform="rotate(15,150,150)" />
-                <ellipse cx="150" cy="150" rx="90" ry="60" fill="none" stroke="#53996f" strokeWidth="0.5" transform="rotate(15,150,150)" />
-                <ellipse cx="150" cy="150" rx="50" ry="33" fill="none" stroke="#53996f" strokeWidth="0.5" transform="rotate(15,150,150)" />
+                <ellipse cx="150" cy="150" rx="130" ry="90" fill="none" stroke="#53996f" strokeWidth="0.9" transform="rotate(15,150,150)" />
+                <ellipse cx="150" cy="150" rx="90" ry="60" fill="none" stroke="#53996f" strokeWidth="0.9" transform="rotate(15,150,150)" />
+                <ellipse cx="150" cy="150" rx="50" ry="33" fill="none" stroke="#53996f" strokeWidth="0.9" transform="rotate(15,150,150)" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#topo-c)" />

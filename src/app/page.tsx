@@ -5,7 +5,7 @@ import ProjectCarousel from "@/components/ui/ProjectCarousel";
 
 const TopoBackground = () => (
   <svg
-    className="absolute inset-0 w-full h-full opacity-[0.06]"
+    className="absolute inset-0 w-full h-full opacity-[0.13]"
     xmlns="http://www.w3.org/2000/svg"
     aria-hidden="true"
   >
@@ -13,22 +13,22 @@ const TopoBackground = () => (
       <pattern id="topo" x="0" y="0" width="600" height="600" patternUnits="userSpaceOnUse">
         <path
           d="M300,300 C380,230 460,180 520,160 C580,140 640,150 680,180 C720,210 730,260 700,310 C670,360 610,390 540,400 C470,410 400,390 340,360 C280,330 240,290 230,250 C220,210 250,170 300,160 C350,150 420,160 460,190 C500,220 510,260 490,300 C470,340 430,370 380,380 C330,390 280,370 250,340 C220,310 220,270 240,240 C260,210 300,200 340,210 C380,220 400,250 390,280 C380,310 350,330 320,325"
-          fill="none" stroke="#53996f" strokeWidth="0.6"
+          fill="none" stroke="#53996f" strokeWidth="1"
         />
         <path
           d="M100,100 C160,50 240,30 300,50 C360,70 390,120 380,180 C370,240 320,280 260,290 C200,300 140,270 110,230 C80,190 90,140 120,110 C150,80 200,80 240,100 C280,120 290,160 270,190 C250,220 210,230 180,215"
-          fill="none" stroke="#53996f" strokeWidth="0.6"
+          fill="none" stroke="#53996f" strokeWidth="1"
         />
         <path
           d="M400,50 C440,20 490,10 530,25 C570,40 590,80 570,120 C550,160 500,180 460,170 C420,160 400,130 410,100"
-          fill="none" stroke="#53996f" strokeWidth="0.6"
+          fill="none" stroke="#53996f" strokeWidth="1"
         />
         <path
           d="M0,450 C40,400 100,380 150,390 C200,400 220,440 200,480 C180,520 130,530 80,510 C30,490 0,460 0,450"
-          fill="none" stroke="#53996f" strokeWidth="0.6"
+          fill="none" stroke="#53996f" strokeWidth="1"
         />
-        <line x1="0" y1="600" x2="600" y2="0" stroke="#ffffff" strokeWidth="0.12" />
-        <line x1="0" y1="300" x2="600" y2="300" stroke="#ffffff" strokeWidth="0.08" />
+        <line x1="0" y1="600" x2="600" y2="0" stroke="#ffffff" strokeWidth="0.2" />
+        <line x1="0" y1="300" x2="600" y2="300" stroke="#ffffff" strokeWidth="0.15" />
       </pattern>
     </defs>
     <rect width="100%" height="100%" fill="url(#topo)" />
@@ -276,11 +276,11 @@ export default function Home() {
 
       {/* ── STATS ── */}
       <section className="relative bg-brand-black py-28 px-6 lg:px-8 overflow-hidden">
-        <div className="absolute inset-0 opacity-[0.025]">
+        <div className="absolute inset-0 opacity-[0.07]">
           <svg width="100%" height="100%">
             <defs>
               <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
-                <path d="M 60 0 L 0 0 0 60" fill="none" stroke="white" strokeWidth="0.5" />
+                <path d="M 60 0 L 0 0 0 60" fill="none" stroke="white" strokeWidth="0.8" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#grid)" />
@@ -316,7 +316,7 @@ export default function Home() {
 
       {/* ── CTA FINAL ── */}
       <section className="relative bg-brand-dark py-28 px-6 lg:px-8 overflow-hidden">
-        <div className="absolute inset-0 opacity-[0.04]">
+        <div className="absolute inset-0 opacity-[0.10]">
           <TopoBackground />
         </div>
         <div className="relative max-w-4xl mx-auto text-center">
