@@ -51,7 +51,7 @@ const services = [
   {
     title: "Ingeniería",
     description:
-      "Soluciones de ingeniería civil y estructural con rigor técnico y cumplimiento de normativas nacionales e internacionales.",
+      "Soluciones de ingeniería civil, estructural, eléctrica y mecánica con rigor técnico y cumplimiento de normativas nacionales e internacionales.",
     icon: (
       <svg viewBox="0 0 40 40" fill="none" className="w-8 h-8">
         <rect x="6" y="18" width="28" height="3" stroke="#53996f" strokeWidth="1.5" />

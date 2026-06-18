@@ -15,7 +15,6 @@ const services = [
   "Construcción",
   "Consultoría",
   "Eléctricos",
-  "Mecánicos",
 ];
 
 export default function Footer() {

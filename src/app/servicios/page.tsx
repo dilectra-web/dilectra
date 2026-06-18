@@ -16,9 +16,8 @@ const services = [
     items: [
       "Diseño arquitectónico residencial",
       "Diseño de espacios comerciales e institucionales",
-      "Planos constructivos y memorias de cálculo",
+      "Renderizados 3D y visualización arquitectónica",
       "Permisos municipales y CFIA",
-      "Interiorismo y diseño de interiores",
     ],
   },
   {
@@ -30,12 +29,41 @@ const services = [
       "Diseño estructural de edificaciones",
       "Cálculo sísmico y análisis de cargas",
       "Diseño de fundaciones y cimentaciones",
-      "Infraestructura vial y obras civiles",
+      "Planos constructivos y memorias de cálculo",
       "Revisión y corrección de diseños existentes",
+      "Dirección de obra y supervisión técnica",
     ],
   },
-  {
+   {
     num: "03",
+    title: "Eléctricos",
+    description:
+      "Diseño e instalación de sistemas eléctricos residenciales y comerciales con cumplimiento de normativas del ICE y del CFIA.",
+    items: [
+      "Diseño de sistemas eléctricos",
+      "Instalaciones eléctricas residenciales, comerciales e industriales",
+      "Planos electricos y memorias de cálculo",
+      "Dirección de obra eléctrica",
+      "Inspecciones y certificaciones eléctricas",
+    ],
+  },
+
+  {
+    num: "04",
+    title: "Consultoría",
+    description:
+      "Brindamos asesoría técnica especializada para inversores, desarrolladores y propietarios que necesitan orientación experta en la toma de decisiones relacionadas con sus proyectos.",
+    items: [
+      "Administración de obra",
+      "Estudios de viabilidad constructiva",
+      "Supervisión técnica independiente",
+      "Gestión de trámites y permisos",
+      "Asesoría en normativa de construcción",
+    ],
+  },
+
+    {
+    num: "05",
     title: "Construcción",
     description:
       "Ejecutamos proyectos de construcción con los más altos estándares de calidad, gestionando eficientemente los recursos humanos, materiales y tiempos para entregar resultados excepcionales.",
@@ -47,45 +75,7 @@ const services = [
       "Remodelaciones y ampliaciones",
     ],
   },
-  {
-    num: "04",
-    title: "Consultoría",
-    description:
-      "Brindamos asesoría técnica especializada para inversores, desarrolladores y propietarios que necesitan orientación experta en la toma de decisiones relacionadas con sus proyectos.",
-    items: [
-      "Due diligence técnico de propiedades",
-      "Estudios de viabilidad constructiva",
-      "Supervisión técnica independiente",
-      "Gestión de trámites y permisos",
-      "Asesoría en normativa de construcción",
-    ],
-  },
-  {
-    num: "05",
-    title: "Eléctricos",
-    description:
-      "Diseño e instalación de sistemas eléctricos residenciales y comerciales con cumplimiento de normativas del ICE y del CFIA.",
-    items: [
-      "Diseño de sistemas eléctricos",
-      "Instalaciones eléctricas residenciales",
-      "Tableros y acometidas",
-      "Iluminación interior y exterior",
-      "Inspecciones y certificaciones eléctricas",
-    ],
-  },
-  {
-    num: "06",
-    title: "Mecánicos (Aguas residuales)",
-    description:
-      "Soluciones en sistemas mecánicos y de aguas residuales para proyectos residenciales y comerciales, cumpliendo normativas del AYA y SENARA.",
-    items: [
-      "Diseño de sistemas de aguas residuales",
-      "Instalación de tanques sépticos y drenajes",
-      "Sistemas de agua potable y plomería",
-      "Trámites ante AYA y SENARA",
-      "Inspección y mantenimiento de redes",
-    ],
-  },
+ 
 ];
 
 export default function Servicios() {
