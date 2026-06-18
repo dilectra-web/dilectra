@@ -144,6 +144,21 @@ export default function Contacto() {
 
               <div>
                 <label className="block text-brand-gray text-xs font-heading font-semibold tracking-widest uppercase mb-2">
+                  Presupuesto estimado
+                </label>
+                <select className="w-full bg-brand-dark border border-white/10 text-brand-gray font-body text-sm px-4 py-3 focus:outline-none focus:border-brand-green transition-colors">
+                  <option value="">Seleccione un rango</option>
+                  <option>Menos de ₡30 millones</option>
+                  <option>₡30 – ₡40 millones</option>
+                  <option>₡40 – ₡50 millones</option>
+                  <option>₡50 – ₡70 millones</option>
+                  <option>₡70 – ₡100 millones</option>
+                  <option>Más de ₡100 millones</option>
+                </select>
+              </div>
+
+              <div>
+                <label className="block text-brand-gray text-xs font-heading font-semibold tracking-widest uppercase mb-2">
                   Mensaje *
                 </label>
                 <textarea
