@@ -109,7 +109,15 @@ export default function Footer() {
             © {new Date().getFullYear()} Dilectra — Arquitectura & Ingeniería. Todos los derechos reservados.
           </p>
           <p className="text-brand-gray/40 text-xs font-body">
-            Costa Rica
+            Designed by{" "}
+            <a
+              href="https://condru.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-brand-green transition-colors"
+            >
+              condru.com
+            </a>
           </p>
         </div>
       </div>
